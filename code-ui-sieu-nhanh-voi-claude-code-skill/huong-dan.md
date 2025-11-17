@@ -6,7 +6,7 @@ Chào mừng các bạn đã quay trở lại với kênh! Trong video này, ch�
 
 ## 📜 Nội dung chính
 
-1.  **Cài đặt Claude Code & Plugin**: Thiết lập môi trường AI để hỗ trợ lập trình.
+1.  **Cài đặt & Khởi động Claude Code**: Thiết lập môi trường AI để hỗ trợ lập trình.
 2.  **Khởi tạo dự án Next.js với shadcn/ui**: Xây dựng nền tảng vững chắc cho ứng dụng.
 3.  **Sử dụng AI để tạo Component**: Dùng v0.dev để lên ý tưởng và tạo mã nguồn cho component.
 4.  **Tích hợp và Hoàn thiện**: Đưa component do AI tạo vào dự án và tinh chỉnh.
@@ -28,23 +28,31 @@ Trước khi bắt đầu, hãy chắc chắn bạn đã cài đặt và chuẩn
 
 ## 🚀 Các bước thực hiện
 
-### Bước 1: Cài đặt Claude Code & Plugin
+### Bước 1: Cài đặt & Khởi động Claude Code
 
 Claude Code là một công cụ AI mạnh mẽ giúp bạn viết code, debug và thực hiện nhiều tác vụ lập trình khác.
 
 -   **Kho mã nguồn Claude Code**: [https://github.com/anthropics/claude-code](https://github.com/anthropics/claude-code)
 
-Để bắt đầu, chúng ta cần thêm marketplace và cài đặt plugin `frontend-design` vào Claude Code. Mở Claude Code và chạy các lệnh sau:
-
-1.  **Thêm Marketplace:**
+1.  **Khởi động Claude Code:**
+    Sau khi cài đặt theo hướng dẫn trên GitHub, bạn có thể khởi động Claude Code từ terminal bằng lệnh sau:
     ```bash
-    /plugin marketplace add anthropics/claude-code
+    claude --dangerously-skip-permissions
     ```
+    *(Lưu ý: Cờ `--dangerously-skip-permissions` giúp bỏ qua các bước xác nhận quyền, tiện lợi cho việc demo. Hãy đọc kỹ tài liệu nếu bạn sử dụng trong môi trường thực tế.)*
 
 2.  **Cài đặt Plugin:**
-    ```bash
-    /plugin install frontend-design@claude-code-plugins
-    ```
+    Khi Claude Code đã chạy, hãy cài đặt plugin `frontend-design` bằng cách chạy các lệnh sau ngay trong giao diện của nó:
+
+    *   **Thêm Marketplace:**
+        ```bash
+        /plugin marketplace add anthropics/claude-code
+        ```
+
+    *   **Cài đặt Plugin:**
+        ```bash
+        /plugin install frontend-design@claude-code-plugins
+        ```
 
 ### Bước 2: Khởi tạo dự án Next.js với shadcn/ui
 
