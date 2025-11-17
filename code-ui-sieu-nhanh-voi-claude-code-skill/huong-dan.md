@@ -72,7 +72,7 @@ Chúng ta sẽ tạo một dự án Next.js trống và sau đó thêm thư vi�
 3.  **Khởi tạo shadcn/ui:**
     Lệnh này sẽ cấu hình các file cần thiết (như `tailwind.config.js`, `globals.css`...) để dự án của bạn có thể sử dụng các component từ shadcn/ui.
     ```bash
-    pnpm dlx shadcn-ui@latest init
+    pnpm dlx shadcn@latest init
     ```
     *(Chọn các tùy chọn mặc định hoặc tùy chỉnh theo ý muốn khi được hỏi)*
 
