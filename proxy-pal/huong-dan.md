@@ -26,3 +26,5 @@ Phần mềm hoàn toàn miễn phí!
 
 ──────────────
 🔥 *Deal ngon: [Đăng ký gói z.ai giá rẻ](https://z.ai/subscribe?ic=IMPYV6B19K)*
+
+📦 **NPM Package:** https://www.npmjs.com/package/copilot-api
